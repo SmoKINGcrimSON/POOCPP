@@ -8,7 +8,8 @@ class Entity{
         Entity();
         float X;
         float Y;
-
+        //vitual
+        virtual void Move();
 };
 
 extern std::ostream& operator<<(std::ostream&, Entity);
