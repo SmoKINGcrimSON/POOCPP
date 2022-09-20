@@ -11,7 +11,11 @@ Player::Player(){
 }
 
 void Player::Move(){
-    std::cout<<this->name<<" it moved.";
+    std::cout<<this->name<<" it moved."<<std::endl;
+}
+
+void Player::Attack() {
+    std::cout<<this->name<<" attack!"<<std::endl;
 }
 
 std::ostream& operator<<(std::ostream& cout, Player p){

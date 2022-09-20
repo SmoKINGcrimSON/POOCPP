@@ -9,8 +9,6 @@ class Entity{
         float X;
         float Y;
         //vitual
-        virtual void Move();
+        virtual void Move() = 0;
 };
-
-extern std::ostream& operator<<(std::ostream&, Entity);
 #endif
